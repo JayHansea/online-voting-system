@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== NAVBAR ==== */
+.head {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 2px 2px 3px #2e2d2d;
+}
+
+.brand:hover {
+    color: #fff;
+}
+
+.signNlog {
+    color: #fff;
+}
+
+.signNlog:hover {
+    color: #004700;
+}
+
+.hamburger {
+    border: 2px solid #fff;
+}
+
+.head .hamburger span {
+    display: block;
+    height: 1vh;
+    margin: 0.5vh 0;
+    background-color: #fff;
+}
+
+/* ==== BANNER ==== */
+.banner {
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    color: #fff;
+    background: url(../img/election-vote-ballot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.overlay {
+    width: 100%;
+    height: 80vh;
+    background: #0431047e;
+    text-align: center;
+    padding: 13% 0 0 0;
+}
+
+.overlay h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn1 {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.btn1:hover {
+    color: #004700;
+}
+
+.btn2 {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.btn2:hover {
+    color: #004700;
+}
+
+/* ==== FOOTER ==== */
+.foot {
+    width: 100%;
+    height: 9.5vh;
+    padding: 3vh;
+    background-color: #0da50d;
+}
+
+.text {
+    color: #fff;
+}
+
+.text a {
+    color: #fff;
+}
+
+.text a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 360px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .overlay {
+        height: 80vh;
+        padding: 28% 0 0 0;
+    }
+
+    .foot {
+        height: 9vh;
+        padding: 1.5vh;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .overlay {
+        height: 80vh;
+        padding: 28% 0 0 0;
+    }
+
+    .foot {
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .banner {
+        height: 80vh;
+    }
+
+    .overlay {
+        height: 80vh;
+        padding: 32% 5% 0 5%;
+    }
+
+    .foot {
+        height: 8vh;
+    }
+}
+
+/* @media only screen and (max-width: 800px) {
+    .head .hamburger span {
+        width: 6vw;
+        height: 0.8vh;
+    }
+
+    .banner {
+        height: 87.5vh;
+    }
+    
+    .overlay {
+        height: 87.5vh;
+        padding: 40% 0 0 0;
+    }
+
+    .foot {
+        height: 5vh;
+        padding: 1vh;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner {
+        height: 87.5vh;
+    }
+    
+    .overlay {
+        height: 87.5vh;
+        padding: 45% 0 0 0;
+    }
+
+    .foot {
+        height: 5vh;
+        padding: 1.5vh;
+    }
+} */
