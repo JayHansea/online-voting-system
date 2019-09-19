@@ -1,13 +1,12 @@
 {
-  "users": [
-    {
+  "users": [{
       "id": 1,
       "firstname": "John",
       "lastname": "Doe",
       "email": "john@doe.com",
       "phonenumber": "08066774422",
       "password": "banana",
-      "type": "citizen"
+      "type": "Citizen"
     },
     {
       "firstname": "Grin",
@@ -37,8 +36,7 @@
       "id": 4
     }
   ],
-  "party": [
-    {
+  "party": [{
       "id": "1",
       "name": "APGA"
     },
@@ -63,8 +61,7 @@
       "name": "KOWA"
     }
   ],
-  "votes": [
-    {
+  "votes": [{
       "id": "1",
       "candidatesId": "2",
       "userId": "1"
