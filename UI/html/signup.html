@@ -1,111 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>INEC</title>
+		<link
+			rel="shortcut icon"
+			href="../img/candidate-for-elections_318-64497.jpg"
+			type="image/x-icon"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="../css/signup.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>INEC</title>
-    <link rel="shortcut icon" href="../img/candidate-for-elections_318-64497.jpg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/signup.css">
-</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="head navbar navbar-expand-lg">
+			<a class="brand navbar-brand" href="../index.html">INEC</a>
+			<button
+				class="hamburger navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-<body>
-    <!-- Navbar -->
-    <nav class="head navbar navbar-expand-lg">
-        <a class="brand navbar-brand" href="../index.html">INEC</a>
-        <button class="hamburger navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-            <span class="navbar-toggler-icon"></span>
-        </button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="signNlog nav-link" href="login.html">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="signNlog nav-link" href="login.html">Login</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm"></div>
+				<div class="col-sm-6">
+					<!-- Default form register -->
+					<div class="center"></div>
+					<form
+						id="signup-form"
+						class="text-center border border-light p-5"
+						action="#!"
+					>
+						<p class="signupText h4 mb-4">Sign up</p>
+						<span id="usergen"></span>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm">
-            </div>
-            <div class="col-sm-6">
-                <!-- Default form register -->
-                <div class="center"></div>
-                <form class="text-center border border-light p-5" action="#!">
+						<div class="form-row mb-4">
+							<div class="col">
+								<!-- First name -->
+								<input
+									type="text"
+									id="defaultRegisterFormFirstName"
+									class="inputStyle form-control"
+									placeholder="First name"
+								/>
+								<span id="spanfirstname"></span>
+							</div>
+							<div class="col">
+								<!-- Last name -->
+								<input
+									type="text"
+									id="defaultRegisterFormLastName"
+									class="inputStyle form-control"
+									placeholder="Last name"
+								/>
+								<span id="spanlastname"></span>
+							</div>
+						</div>
 
-                    <p class="signupText h4 mb-4">Sign up</p>
-                    <span id="usergen"></span>
+						<!-- E-mail -->
+						<input
+							type="email"
+							id="defaultRegisterFormEmail"
+							class="inputStyle form-control mb-4"
+							placeholder="E-mail"
+						/>
+						<span id="vemail"></span>
 
-                    <div class="form-row mb-4">
-                        <div class="col">
-                            <!-- First name -->
-                            <input type="text" id="defaultRegisterFormFirstName" class="inputStyle form-control"
-                                placeholder="First name">
-                            <span id="spanfirstname"></span>
-                        </div>
-                        <div class="col">
-                            <!-- Last name -->
-                            <input type="text" id="defaultRegisterFormLastName" class="inputStyle form-control"
-                                placeholder="Last name">
-                            <span id="spanlastname"></span>
-                        </div>
-                    </div>
+						<!-- Password -->
+						<input
+							type="password"
+							id="defaultRegisterFormPassword"
+							class="inputStyle form-control mb-4"
+							placeholder="Password"
+							aria-describedby="defaultRegisterFormPasswordHelpBlock"
+						/>
+						<span id="spanpass"></span>
 
-                    <!-- E-mail -->
-                    <input type="email" id="defaultRegisterFormEmail" class="inputStyle form-control mb-4"
-                        placeholder="E-mail">
-                    <span id="vemail"></span>
+						<!-- Confirm Password -->
+						<!-- <input
+							type="password"
+							id="defaultRegisterFormConfirmPassword"
+							class="inputStyle form-control mb-4"
+							placeholder="Confirm Password"
+							aria-describedby="defaultRegisterFormPasswordHelpBlock"
+						/>
+						<span id="confirm-spanpass"></span> -->
 
-                    <!-- Password -->
-                    <input type="password" id="defaultRegisterFormPassword" class="inputStyle form-control mb-4"
-                        placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-                    <span id="spanpass"></span>
+						<!-- Phone number -->
+						<input
+							type="text"
+							id="defaultRegisterPhonePassword"
+							class="inputStyle form-control mb-4"
+							placeholder="Phone number"
+							aria-describedby="defaultRegisterFormPhoneHelpBlock"
+						/>
+						<span id="phone"></span>
 
-                    <!-- Phone number -->
-                    <input type="text" id="defaultRegisterPhonePassword" class="inputStyle form-control mb-4"
-                        placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
-                    <span id="phone"></span>
+						<!-- user type -->
+						<select
+							id="selecttype"
+							class="inputStyle selectStyle browser-default custom-select mb-4"
+						>
+							<option class="optionStyle" value="Citizen">Citizen</option>
+							<option class="optionStyle" value="Politician"
+								>Politician</option
+							> </select
+						><span id="selectspan"></span>
 
-                    <!-- Subject -->
-                    <select class="inputStyle selectStyle browser-default custom-select mb-4">
-                        <option class="optionStyle" value="1">Select account type</option>
-                        <option class="optionStyle" value="Citizen">Citizen</option>
-                        <option class="optionStyle" value="Politician">Politician</option>
-                    </select>
+						<!-- Agree to terms -->
+						<!-- <div class="custom-control custom-checkbox">
+							<input
+								type="checkbox"
+								class="custom-control-input"
+								id="defaultRegisterFormNewsletter"
+							/>
+							<label
+								class="custom-control-label"
+								for="defaultRegisterFormNewsletter"
+								>Agree to our terms and condition</label
+							>
+						</div>
+						<span id="check"></span> -->
 
-                    <!-- Newsletter -->
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="defaultRegisterFormNewsletter">
-                        <label class="custom-control-label" for="defaultRegisterFormNewsletter">Agree to our terms and
-                            condition</label>
-                    </div>
+						<!-- Sign up button -->
+						<button class="btnStyle btn btn-info my-4 btn-block" type="submit">
+							Sign in
+						</button>
+						<p style="text-align: center">
+							Already have an account?
+							<a href="login.html" style="color: #0da50d">Login</a>
+						</p>
+					</form>
+					<!-- Default form register -->
+				</div>
+				<div class="col-sm"></div>
+			</div>
+		</div>
 
-                    <!-- Sign up button -->
-                    <button class="btnStyle btn btn-info my-4 btn-block" type="submit">Sign in</button>
-                    <p style="text-align: center">Already have an account? <a href="login.html"
-                            style="color: #0da50d">Login</a></p>
-
-                </form>
-                <!-- Default form register -->
-            </div>
-            <div class="col-sm">
-            </div>
-        </div>
-    </div>
-
-
-
-
-</body>
-
+        <script src="../js/jquery-3.4.1.js"></script>
+        <script src="../js/popper.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<script src="../js/signup.js"></script>
+	</body>
 </html>

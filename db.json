@@ -1,45 +1,44 @@
 {
-  "users": [{
-      "id": "1",
+  "users": [
+    {
+      "id": 1,
       "firstname": "John",
       "lastname": "Doe",
       "email": "john@doe.com",
+      "phonenumber": "08066774422",
       "password": "banana",
-      "Phone-number": "08066774422",
-      "status": "citizen"
+      "type": "citizen"
     },
     {
-      "id": "2",
-      "firstname": "Jane",
-      "lastname": "Foe",
-      "email": "jane@foe.com",
-      "password": "cucumber",
-      "Phone-number": "08066778899",
-      "status": "citizen"
-    }
-  ],
-
-  "candidates": [{
-      "id": "1",
-      "firstname": "Jude",
-      "lastname": "Bro",
-      "email": "jude@bro.com",
-      "password": "coconut",
-      "Phone-number": "08033556699",
-      "status": "politician"
+      "firstname": "Grin",
+      "lastname": "Smiley",
+      "email": "grin@smiley.com",
+      "password": "touch@%",
+      "phonenumber": "09077665544",
+      "type": "Politician",
+      "id": 2
     },
     {
-      "id": "2",
-      "firstname": "Grey",
-      "lastname": "Fellow",
-      "email": "grey@fellow.com",
-      "password": "berries",
-      "Phone-number": "08033448899",
-      "status": "politician"
+      "firstname": "Ram",
+      "lastname": "Cat",
+      "email": "ram@cat.com",
+      "password": "456",
+      "phonenumber": "09088677655",
+      "type": "Politician",
+      "id": 3
+    },
+    {
+      "firstname": "iyhugt",
+      "lastname": "jghg",
+      "email": "gfg@hgh.com",
+      "password": "ydy",
+      "phonenumber": "7675",
+      "type": "Citizen",
+      "id": 4
     }
   ],
-
-  "party": [{
+  "party": [
+    {
       "id": "1",
       "name": "APGA"
     },
@@ -64,7 +63,8 @@
       "name": "KOWA"
     }
   ],
-  "votes": [{
+  "votes": [
+    {
       "id": "1",
       "candidatesId": "2",
       "userId": "1"
