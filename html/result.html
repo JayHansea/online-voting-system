@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>INEC</title>
+    <link rel="shortcut icon" href="../img/candidate-for-elections_318-64497.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/citizens.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="head navbar navbar-expand-lg">
+        <a class="brand navbar-brand" href="../index.html">INEC</a>
+        <button class="hamburger navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="signNlog nav-link" href="citizens.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="signNlog nav-link" href="history.html">History</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="signNlog nav-link" id="logout">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="nav-sidebar col-sm-3">
+                <aside class="">
+                    <div class="profile__image"></div>
+                    <div class="profile__details">
+                        <p id="fullname">Fullname: Ezeokafor Tochukwu</p>
+                        <p id="email">Email: ezeokafortochukwu@gmail.com</p>
+                        <p id="phonenumber">Phone: 08066xxxxxx</p>
+                        <p id="type">Status: Citizen</p>
+                    </div>
+                    <a href="results.html"><button id="results" class="petition">Election Results</button></a>
+                </aside>
+            </div>
+            <div class="col-sm-9">
+                <div class="container">
+                    <div>
+                        <h4 class="page-title">Election Results</h4>
+                    </div>
+                    <div class="row">
+                        <div class="lhs col-sm-4">
+                            <div class="container2 card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5>Local Government Chairman</h5>
+                                    <a href="#" class="viewrecord btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter1">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lhs col-sm-4">
+                            <div class="container2 card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5>Senate House</h5>
+                                    <a href="#" class="viewrecord btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter2">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lhs col-sm-4">
+                            <div class="container2 card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5>House of Reps</h5>
+                                    <a href="#" class="viewrecord btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter3">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="pregov col-sm-6">
+                            <div class="container2 card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5>Presidential</h5>
+                                    <a href="#" class="viewrecord btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter4">View</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pregov col-sm-6">
+                            <div class="container2 card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <h5>Governorship</h5>
+                                    <a href="#" class="viewrecord btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter5">View</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Local Government Election</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                    <hr>
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Senatorial Election</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                    <hr>
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">House of Representatives Election</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                    <hr>
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Presidential Election</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                    <hr>
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Governorship Election</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                    <hr>
+                    <div class="profile__details">
+                        <p id="candidate">Candidate 1: Jane Doe</p>
+                        <p id="party">Party: Hope</p>
+                        <p id="results">Results: 300 Vote(s)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
