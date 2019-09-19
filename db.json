@@ -1,0 +1,78 @@
+{
+  "users": [{
+      "id": "1",
+      "firstname": "John",
+      "lastname": "Doe",
+      "email": "john@doe.com",
+      "password": "banana",
+      "Phone-number": "08066774422",
+      "status": "citizen"
+    },
+    {
+      "id": "2",
+      "firstname": "Jane",
+      "lastname": "Foe",
+      "email": "jane@foe.com",
+      "password": "cucumber",
+      "Phone-number": "08066778899",
+      "status": "citizen"
+    }
+  ],
+
+  "candidates": [{
+      "id": "1",
+      "firstname": "Jude",
+      "lastname": "Bro",
+      "email": "jude@bro.com",
+      "password": "coconut",
+      "Phone-number": "08033556699",
+      "status": "politician"
+    },
+    {
+      "id": "2",
+      "firstname": "Grey",
+      "lastname": "Fellow",
+      "email": "grey@fellow.com",
+      "password": "berries",
+      "Phone-number": "08033448899",
+      "status": "politician"
+    }
+  ],
+
+  "party": [{
+      "id": "1",
+      "name": "APGA"
+    },
+    {
+      "id": "2",
+      "name": "Hope"
+    },
+    {
+      "id": "3",
+      "name": "PDP"
+    },
+    {
+      "id": "4",
+      "name": "APC"
+    },
+    {
+      "id": "5",
+      "name": "PPA"
+    },
+    {
+      "id": "6",
+      "name": "KOWA"
+    }
+  ],
+  "votes": [{
+      "id": "1",
+      "candidatesId": "2",
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "candidatesId": "1",
+      "userId": "2"
+    }
+  ]
+}
