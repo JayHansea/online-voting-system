@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== NAVBAR ==== */
+.head {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 2px 2px 3px #2e2d2d;
+}
+
+.brand:hover {
+    color: #fff;
+}
+
+a.signNlog {
+    color: #fff;
+}
+
+a.signNlog:hover {
+    color: #004700;
+    cursor: pointer;
+}
+
+.hamburger {
+    border: 2px solid #fff;
+}
+
+.head .hamburger span {
+    display: block;
+    height: 1vh;
+    margin: 0.5vh 0;
+    background-color: #fff;
+}
+
+/* ==== DASHBOARD ==== */
+.nav-sidebar {
+    height: 89.5vh;
+    color: #fff;
+    background-color: #0da50d;
+}
+
+.nav-sidebar aside a {
+    text-decoration: none;
+}
+
+.profile__image {
+    background-image: url("../img/download.jpg");
+    background-size: cover;
+    height: 45vh;
+    border-radius: 26px;
+    width: 22vw;
+    /* margin-left: 30px; */
+}
+
+.profile__details {
+    margin: 5% 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-title {
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    margin: 3vh 0 0 0;
+}
+
+h5 {
+    font-size: 17px;
+    margin-top: 3%;
+}
+
+.container2 div {
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 0 12px black;
+}
+
+.viewrecord {
+    background-color: transparent;
+    width: 50%;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.viewrecord:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
+
+.lhs {
+    padding: 1.5%;
+}
+
+.pregov {
+    padding: 1.5% 7vw;
+}
+
+.modalbtn {
+    background-color: transparent;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.modalbtn:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
+
+.btnmodal {
+    background-color: transparent;
+    color: #f30c0c;
+    border: 2px solid #f30c0c;
+    border-radius: 15px;
+}
+
+.btnmodal:hover {
+    background-color: #f30c0c;
+    border: 2px solid #f30c0c;
+    border-radius: 20px;
+}
+
+.admin {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+/* .container2 div .viewrecord {
+    border: 2px solid #f5f6fa;
+    padding: 7px 40px;
+    color: #f5f6fa;
+    cursor: pointer;
+    margin-top: -31px;
+    background: #005f6b;
+    margin-bottom: 11px;
+} */
+
+.petition {
+    display: block;
+    background-color: #fff;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    padding: 2% 10%;
+    margin: 5% 0;
+    border-radius: 20px;
+}
+
+.petition:hover {
+    background-color: #8fe78f;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+@media only screen and (max-width: 500px) {
+    .profile__image {
+        height: 45vh;
+        width: 90vw;
+        /* margin-left: 30px; */
+    }
+
+    h5 {
+        font-size: 17px;
+        margin-top: 5%;
+    }
+
+    .lhs {
+        padding: 2% 6.5%;
+    }
+
+    .pregov {
+        padding: 2% 6.5%;
+    }
+}
