@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== NAVBAR ==== */
+.head {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 2px 2px 3px #2e2d2d;
+}
+
+.brand:hover {
+    color: #fff;
+}
+
+.signNlog {
+    color: #fff;
+}
+
+.signNlog:hover {
+    color: #004700;
+}
+
+.hamburger {
+    border: 2px solid #fff;
+}
+
+.head .hamburger span {
+    display: block;
+    height: 1vh;
+    margin: 0.5vh 0;
+    background-color: #fff;
+}
+
+/* ==== Login BOX ==== */
+.formDiv {
+    padding: 5% 0 0 0;
+}
+
+.loginText {
+    color: #0c800c;
+}
+
+.inputStyle {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #0da50d;
+    padding: 0
+}
+
+.inputStyle:focus {
+    border: none;
+}
+
+.btnStyle {
+    background-color: transparent;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.btnStyle:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ==== NAVBAR ==== */
+.head {
+    background-color: #0da50d;
+    color: #fff;
+}
+
+.brand {
+    color: #fff;
+    font-size: 1.8em;
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 2px 2px 3px #2e2d2d;
+}
+
+.brand:hover {
+    color: #fff;
+}
+
+.signNlog {
+    color: #fff;
+}
+
+.signNlog:hover {
+    color: #004700;
+}
+
+.hamburger {
+    border: 2px solid #fff;
+}
+
+.head .hamburger span {
+    display: block;
+    height: 1vh;
+    margin: 0.5vh 0;
+    background-color: #fff;
+}
+
+/* ==== Login BOX ==== */
+.formDiv {
+    padding: 5% 0 0 0;
+}
+
+.loginText {
+    color: #0c800c;
+}
+
+.inputStyle {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #0da50d;
+    padding: 0
+}
+
+.inputStyle:focus {
+    border: none;
+}
+
+.btnStyle {
+    background-color: transparent;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.btnStyle:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
