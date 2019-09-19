@@ -1,0 +1,22 @@
+{
+  "name": "online-voting-system",
+  "version": "1.0.0",
+  "description": "Online_Voting_System enables individuals to participate in a fair voting system, voting candidates of their choice all across Nigeria.",
+  "main": "index.js",
+  "scripts": {
+    "jsonServer": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayHansea/online-voting-system.git"
+  },
+  "author": "Ezeokafor Tochukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayHansea/online-voting-system/issues"
+  },
+  "homepage": "https://github.com/JayHansea/online-voting-system#readme",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
