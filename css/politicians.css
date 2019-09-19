@@ -1,0 +1,38 @@
+.interest {
+    background-color: #fff;
+    width: 80%;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.interest:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
+
+.modalbtn {
+    background-color: #fff;
+    width: 20%;
+    color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 15px;
+}
+
+.modalbtn:hover {
+    background-color: #0da50d;
+    border: 2px solid #0da50d;
+    border-radius: 20px;
+}
+
+.inputStyle {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #0da50d;
+    padding: 0
+}
+
+.inputStyle:focus {
+    border: none;
+}
