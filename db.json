@@ -62,14 +62,12 @@
     }
   ],
   "votes": [{
-      "id": "1",
-      "candidatesId": "2",
-      "userId": "1"
+      "id": 1,
+      "userId": 3
     },
     {
-      "id": "2",
-      "candidatesId": "1",
-      "userId": "2"
+      "id": 2,
+      "userId": 2
     }
   ]
 }
