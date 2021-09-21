@@ -24,7 +24,7 @@ cd Online_Voting_System
 npm install
 
 ## Start the application
-npm run dev-start
+npm run jsonServer
 
 ## View the application
 navigate to localhost:3000 to view the application
