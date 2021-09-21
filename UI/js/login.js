@@ -16,17 +16,17 @@ $("#login-form").on("submit", function (e) {
                 if (
                     newUser.email === user.email &&
                     newUser.password === user.password &&
-                    user.type === "Citizen"
-                ) {
-                    window.location.href = "../html/citizens.html";
-                } else if (
-                    newUser.email === user.email &&
-                    newUser.password === user.password &&
                     user.type === "Politician"
                 ) {
                     window.location.href = "../html/politicians.html";
+                } else if (
+                    newUser.email === user.email &&
+                    newUser.password === user.password &&
+                    user.type === "Citizen"
+                ) {
+                    window.location.href = "../html/citizens.html";
                 } else {
-                    // $("#error").append(`<p>you are not yet registered</p>`);
+                    $("#error").append(`<p>you are not yet registered</p>`);
                 }
             })
         }

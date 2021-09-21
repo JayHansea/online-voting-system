@@ -16,13 +16,17 @@ $(window).on("load", function () {
                     newUser.email === user.email &&
                     newUser.password === user.password
                 ) {
-                    $('#fullname').append(`Fullname: ${user.firstname} ${user.lastname}`);
+                    const fullName = document.getElementById('fullname');
+    fullName.textContent = `Fullname: ${user.firstname} ${user.lastname}`;
 
-                    $('#email').append(`Email: ${user.email}`);
+    const email = document.getElementById('email');
+    email.textContent = `Email: ${user.email}`;
 
-                    $('#phonenumber').append(`Phone: ${user.phonenumber}`);
-
-                    $('#type').append(`Status: ${user.type}`);
+    const phoneNumber = document.getElementById('phonenumber');
+    phoneNumber.textContent = `Phone: ${user.phonenumber}`;
+    
+    const type = document.getElementById('type');
+    type.textContent = `Status: ${user.type}`;
                 }
             })
         }
@@ -101,15 +105,17 @@ for (let i = 0; i < votes.length; i++) {
     });
 }
 
-const details = () => {
-    const fullName = document.getElementById('fullname');
-    fullName.textContent = `Fullname: ${user.firstname} ${user.lastname}`;
+// const details = () => {
+//     const fullName = document.getElementById('fullname');
+//     fullName.textContent = `Fullname: ${user.firstname} ${user.lastname}`;
 
-    const email = document.getElementById('email');
-    email.textContent = `Email: ${user.email}`;
-    const phoneNumber = document.getElementById('phonenumber');
-    phoneNumber.textContent = `Phone: ${user.phonenumber}`;
-    const type = document.getElementById('type');
-    type.textContent = `Status: ${user.type}`;
-}
-details();
+//     const email = document.getElementById('email');
+//     email.textContent = `Email: ${user.email}`;
+
+//     const phoneNumber = document.getElementById('phonenumber');
+//     phoneNumber.textContent = `Phone: ${user.phonenumber}`;
+
+//     const type = document.getElementById('type');
+//     type.textContent = `Status: ${user.type}`;
+// }
+// details();
